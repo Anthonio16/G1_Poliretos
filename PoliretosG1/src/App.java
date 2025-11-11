@@ -6,7 +6,6 @@ public class App {
         System.out.println("                                        ");
 
         Controller app = new Controller();
-        app.inicializarPrograma();
         
     }
 }

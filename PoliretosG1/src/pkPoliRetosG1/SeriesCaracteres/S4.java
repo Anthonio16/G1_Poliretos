@@ -3,7 +3,7 @@ package pkPoliRetosG1.SeriesCaracteres;
 import pkPoliRetosG1.secuenciasNumericas.validacion;
 
 public class S4 {
-    public static void main(String[] args) {
+    public static void secuencia4() {
 
         int repeticiones = validacion.validarEntrada();
 

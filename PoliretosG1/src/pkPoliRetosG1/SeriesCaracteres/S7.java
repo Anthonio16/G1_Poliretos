@@ -3,7 +3,7 @@ package pkPoliRetosG1.SeriesCaracteres;
 import pkPoliRetosG1.secuenciasNumericas.validacion;
 
 public class S7 {
-    public static void main(String[] args) {
+    public static void secuencia7() {
         int repeticiones = validacion.validarEntrada();
 
         char[] abecedario = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't','u', 'v', 'w', 'x', 'y', 'z' };

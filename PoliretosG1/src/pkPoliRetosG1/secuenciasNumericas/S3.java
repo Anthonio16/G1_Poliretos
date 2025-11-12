@@ -2,7 +2,7 @@ package pkPoliRetosG1.secuenciasNumericas;
 
 
 public class S3 {
-    public static void main(String[] args){
+    public static void secuencia3(){
         int a = 0,b = 1,c,i,aux = 1,repeticiones;
 
         repeticiones = validacion.validarEntrada();

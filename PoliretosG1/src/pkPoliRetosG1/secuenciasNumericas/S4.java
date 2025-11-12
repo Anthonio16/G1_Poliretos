@@ -1,7 +1,7 @@
 package pkPoliRetosG1.secuenciasNumericas;
 
 public class S4 {
-    public static void main(String[] args){
+    public static void secuencia4(){
         int i, repeticiones;
         repeticiones = validacion.validarEntrada();
         int a = 0,b = 1,c,aux = 0;

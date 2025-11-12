@@ -1,7 +1,7 @@
 package pkPoliRetosG1.secuenciasNumericas;
 
 public class S7 {
-    public static void main(String[] args){
+    public static void secuencia7(){
             
         
         System.out.println("Bucle for");

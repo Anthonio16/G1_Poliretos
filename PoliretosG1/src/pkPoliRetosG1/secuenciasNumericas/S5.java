@@ -1,7 +1,7 @@
 package pkPoliRetosG1.secuenciasNumericas;
 
 public class S5 {
-    public static void main(String[] args){
+    public static void secuencia5(){
 
         String secuencia = "";
         int contadorDivisores = 0, repeticiones;

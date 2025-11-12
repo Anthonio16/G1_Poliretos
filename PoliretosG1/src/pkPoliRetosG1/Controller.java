@@ -6,16 +6,14 @@ import java.util.Scanner;
 import pkPoliRetosG1.serieFiguras.Figuras;
 import pkPoliRetosG1.Arrays.Array;
 import pkPoliRetosG1.Loadings.Loading;
-
-
+import pkPoliRetosG1.secuenciasNumericas.Secuencias;
+import pkPoliRetosG1.SeriesCaracteres.Caracteres;
 
 public class Controller {
 
 
     public void run(Scanner sc) throws InterruptedException {
         printHeader();
-
-
 
         System.out.println(">> Ingrese su Primer Nombre: ");
         String primerNombre = sc.nextLine();
@@ -27,10 +25,11 @@ public class Controller {
         String segundoApellido = sc.nextLine();
 
         //Series numericas
-
+        Secuencias.inicializarSecuencias();
 
         //Series de caracteres
 
+        Caracteres.inicializarSecuenciasCaracteres();
 
         //Figuras
 

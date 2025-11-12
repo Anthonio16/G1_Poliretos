@@ -1,7 +1,7 @@
 package pkPoliRetosG1.secuenciasNumericas;
 
 public class S1 {
-    public static void main(String[] args) {
+    public static void secuencia1() {
         int a = 0, b = 1, c, repeticiones,i = 1;
         String secuencia = "";
         

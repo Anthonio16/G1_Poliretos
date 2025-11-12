@@ -1,8 +1,8 @@
 package pkPoliRetosG1.Loadings;
 
-public class L03DesplazamientoDeCaracter {
+public class L03_DesplazamientoDeCaracter {
     
-    public void g1_L03pedirCaracterYDesplazarFor(char caracter) throws InterruptedException{
+    public static void g1_L03pedirCaracterYDesplazarFor(char caracter) throws InterruptedException{
         
 
         //Usando for:
@@ -23,14 +23,14 @@ public class L03DesplazamientoDeCaracter {
             
             //Para mostrar el arreglo completo, se lo convierte en string
             String barraEnString = new String(barra);
-            System.out.println("[" + barraEnString + " ]" + porcentaje + " %");
+            System.out.println("\r[" + barraEnString + " ]" + porcentaje + " %");
             Thread.sleep(100);
         }
         System.out.println("Carga Completa.");
 
     }
 
-    public void g1_L03pedirCaracterYDesplazarWhile(char caracter) throws InterruptedException{
+    public static void g1_L03pedirCaracterYDesplazarWhile(char caracter) throws InterruptedException{
 
         //Usando while:
         System.out.println("2. WHILE: ");
@@ -51,7 +51,7 @@ public class L03DesplazamientoDeCaracter {
             
             //Para mostrar el arreglo completo, se lo convierte en string
             String barraEnString = new String(barra);
-            System.out.println("[" + barraEnString + " ]" + k + " %");
+            System.out.print("\r[" + barraEnString + " ]" + k + " %");
             Thread.sleep(100);
             k++;
         }
@@ -59,7 +59,7 @@ public class L03DesplazamientoDeCaracter {
 
     }
 
-    public void g1_L03pedirCaracterYDesplazarDoWhile(char caracter) throws InterruptedException{
+    public static void g1_L03pedirCaracterYDesplazarDoWhile(char caracter) throws InterruptedException{
         
         //Usando do-while:
         System.out.println("3. DO-WHILE: ");
@@ -80,7 +80,7 @@ public class L03DesplazamientoDeCaracter {
             
             //Para mostrar el arreglo completo, se lo convierte en string
             String barraEnString = new String(barra);
-            System.out.println("[" + barraEnString + " ]" + w + " %");
+            System.out.print("\r[" + barraEnString + " ]" + w + " %");
             Thread.sleep(100);
             w++;
         }while (w <= 100);

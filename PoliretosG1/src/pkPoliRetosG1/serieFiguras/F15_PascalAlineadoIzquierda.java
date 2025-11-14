@@ -17,7 +17,7 @@ public class F15_PascalAlineadoIzquierda {
 
         // imprimir alineado a la izquierda
         for (int j = 0; j < current.length; j++){
-            System.out.print(current[j] + " ");
+            System.out.print(current[j] + "  ");
         }
         System.out.println();
 

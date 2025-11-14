@@ -48,14 +48,14 @@ public class F14_TrianguloPascal {
         // ----- imprimir espacios de centrado -----
         int s = 0;
         while (s < (N - i)) {
-            System.out.print(" ");
+            System.out.print("  ");
             s++;
         }
 
         // ----- imprimir valores de la fila actual -----
         j = 0;
         while (j < current.length) {
-            System.out.print(current[j] + " ");
+            System.out.print(current[j] + "  ");
             j++;
         }
 
@@ -85,11 +85,11 @@ public class F14_TrianguloPascal {
         } while (j <= i);
 
         int s = 0;
-        while (s++ < (N - i)) System.out.print(" ");
+        while (s++ < (N - i)) System.out.print("  ");
 
         j = 0;
         do {
-            System.out.print(current[j] + " ");
+            System.out.print(current[j] + "  ");
             j++;
         } while (j < current.length);
 

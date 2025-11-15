@@ -5,10 +5,12 @@ import java.util.Scanner;
 
 import pkPoliRetosG1.serieFiguras.Figuras;
 import pkPoliRetosG1.Arrays.Array;
+import pkPoliRetosG1.AutomatasyGrafos.AutomatasGrafos;
 import pkPoliRetosG1.Loadings.Loading;
 import pkPoliRetosG1.secuenciasNumericas.Secuencias;
 import pkPoliRetosG1.SeriesCaracteres.Caracteres;
 import pkPoliRetosG1.cadenaCaracteres.CadenaCaracteres;
+import pkPoliRetosG1.calculosRecursivos.Recursividad;
 
 public class Controller {
 
@@ -49,9 +51,10 @@ public class Controller {
         Loading.inicializarLoadings(primerNombre, primerApellido, segundoApellido);
 
         //Recursion
-
+        Recursividad.inicializarCalculos();
 
         //Grafos y Automatas
+        AutomatasGrafos.inicializarAutomatas();
 
         System.out.println("¡Gracias! Programa finalizado.");
         

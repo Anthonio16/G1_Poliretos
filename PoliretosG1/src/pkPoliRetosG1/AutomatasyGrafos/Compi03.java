@@ -3,7 +3,7 @@ package pkPoliRetosG1.AutomatasyGrafos;
 public class Compi03 {
 
 
-    public void validarPalabraReservada(String cadena) {
+    public static void validarPalabraReservada(String cadena) {
         for (int i = 0; i < cadena.length(); i++) {
             if (cadena.equals("for") || cadena.equals("for ") || cadena.equals("ifelse") ||
                     cadena.equals("ifelse ") || cadena.equals("else")

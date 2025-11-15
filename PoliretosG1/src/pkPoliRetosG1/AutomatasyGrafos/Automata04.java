@@ -3,9 +3,9 @@ package pkPoliRetosG1.AutomatasyGrafos;
 public class Automata04 {
     // automata 1+|0+1*
 
-    final int e = -10;
+    static final int e = -10;
 
-    int[][] mt = {
+    static int[][] mt = {
       
         {  e ,  1  },
         {  2 ,  1  }, 
@@ -13,7 +13,7 @@ public class Automata04 {
         {  e ,  3  },  
     };
 
-    public int obtenerColumna(char c) {
+    public static int obtenerColumna(char c) {
         return switch (c) {
             case '0' -> 0;
             case '1' -> 1;
@@ -22,7 +22,7 @@ public class Automata04 {
     }
 
 
-    public boolean validarCadena(String cadena) {
+    public static boolean validarCadena(String cadena) {
     
         if (cadena.isEmpty()) {
             return false;

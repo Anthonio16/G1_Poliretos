@@ -1,7 +1,7 @@
 package pkPoliRetosG1.AutomatasyGrafos;
 
 public class Validador {
-public void validarCadena(String cadena) {
+public static void validarCadena(String cadena) {
         boolean tieneMayuscula = false;
         boolean tieneMinuscula = false;
         boolean tieneNumero = false;

@@ -77,6 +77,5 @@ public class Recursividad {
         System.out.println("Resultado (while): " + Suma.conWhile(aSuma, bSuma));
         System.out.println("Resultado (do-while): " + Suma.conDoWhile(aSuma, bSuma));
 
-        scanner.close();
     }
 }
